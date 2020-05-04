@@ -1,7 +1,7 @@
 var mymap = L.map('map', {
     center: [44.96, -103.76],
     zoom: 3,
-    maxZoom: 10,
+    maxZoom: 20,
     minZoom: 2,
     detectRetina: true});
 
