@@ -5,8 +5,9 @@ var mymap = L.map('map', {
     minZoom: 2,
     detectRetina: true});
 
-
-L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png').addTo(mymap);
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
+//the following basebmap was the one I wanted to use, but it would not load all of the time.
+//L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png').addTo(mymap);
 
 
 var airports = null;
