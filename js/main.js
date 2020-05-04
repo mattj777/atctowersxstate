@@ -6,7 +6,7 @@ var mymap = L.map('map', {
     detectRetina: true});
 
 L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
-//the following basebmap was the one I wanted to use, but it would not load all of the time.
+//the following basebmap was the one I wanted to use, but it would not load all of the time. I liked it better because it was a nice dark map that looked kind of like the background of actual FAA uses to track flights in pattern.
 //L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png').addTo(mymap);
 
 
